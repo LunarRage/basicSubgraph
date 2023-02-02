@@ -1,0 +1,9 @@
+type RoninUser @entity{
+  id:ID!
+  axie:Axie!
+}
+
+type Axie @entity{
+  id:ID!
+  user:RoninUser!
+}
